@@ -22,7 +22,7 @@ public class AuditDepartment {
 		}
 		return -1;
 	}
-	public boolean addEmployee(Employee e){
+	public boolean addEmploy(Employee e){
 		int index=searchEmployee(e.getId());
 		if(nbEmp<arrEmp.length&&index ==-1){
 		if(e instanceof Programmer){
